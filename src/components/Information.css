@@ -1,5 +1,31 @@
 .InformationContainer {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'LiberationMonoRegular';
     font-size: 120%;
     margin: 3rem;
+    color: darkblue;
 }
+
+.InformationName {
+    font-size: 140%;
+}
+
+.InformationText {
+    padding-top: 0.5rem;
+}
+
+.FrontEnd {
+    color: cornflowerblue;
+}
+
+.FullStack {
+    color: palevioletred;
+}
+
+.Algorithms {
+    color: olivedrab;
+}
+
+.UXResearch {
+    color: coral;
+}
+

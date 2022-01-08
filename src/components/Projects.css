@@ -1,3 +1,12 @@
 .ProjectContainer {
     color: white;
+    font-family: 'LiberationMonoRegular';
+    font-size: 120%;
+    margin: 3rem;
+}
+
+.ProjectList {
+    list-style-type: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
 }

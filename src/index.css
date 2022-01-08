@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'LiberationMonoRegular';
+  src: local('LiberationMonoRegular'), url(./fonts/LiberationMonoRegular.ttf);
+}
