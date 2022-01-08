@@ -11,11 +11,43 @@ const projects = [
     ]
   },
   {
+    name: 'PrologPather',
+    year: 2021,
+    tech: 
+    [
+      'Algorithms'
+    ]
+  },
+  {
+    name: 'Personal Website',
+    year: 2021,
+    tech: 
+    [
+      'Front End Dev'
+    ]
+  },
+  {
+    name: 'Muscle Monsters UX Project',
+    year: 2021,
+    tech: 
+    [
+      'UX Research'
+    ]
+  },
+  {
     name: 'Park Hangs',
     year: 2020,
     tech: 
     [
       'Full Stack Dev'
+    ]
+  },
+  {
+    name: 'Game of Probable Life',
+    year: 2020,
+    tech: 
+    [
+      'Algorithms'
     ]
   },
 ]
@@ -27,9 +59,12 @@ function Projects() {
         <ul className='ProjectList'>
           {projects.map((project) => (
             <div>
-              <li>
-                <span>{project.year}</span>
+              <li className='ProjectElement'>
+                <span className='ProjectYear'>{project.year}</span>
                 <span>{project.name}</span>
+                {project.tech.map((technology) => 
+                  <span className='ProjectTech'>{technology}</span>
+                  )}
               </li>
             </div>
           ))}

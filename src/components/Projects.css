@@ -10,3 +10,17 @@
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
 }
+
+.ProjectElement {
+    margin-bottom: 0.5rem;
+}
+
+.ProjectYear {
+    font-size: 70%;
+    margin-right: 1rem;
+}
+
+.ProjectTech {
+    font-size: 70%;
+    margin-left: 1rem;
+}

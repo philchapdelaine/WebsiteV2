@@ -27,7 +27,7 @@ function Information() {
         <div className='InformationText'>pchapy@gmail.com</div>
         <div className='InformationText'>Vancouver, BC</div>
         <div className='InformationText'>604-356-1821</div>
-        <div className='InformationText'>Filter projects by type:</div>
+        <div className='InformationText'>You can filter projects by type:</div>
         <div className='InformationText'>
             <span className='FrontEnd'>Front End Dev - </span>
             <span className='FullStack'>Full Stack Dev - </span>
