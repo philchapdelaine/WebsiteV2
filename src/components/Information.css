@@ -2,7 +2,7 @@
     font-family: 'LiberationMonoRegular';
     font-size: 120%;
     margin: 3rem;
-    color: darkblue;
+    color: #234572;
 }
 
 .InformationName {
@@ -18,7 +18,7 @@
 }
 
 .FullStack {
-    color: palevioletred;
+    color: #AF4C79;
 }
 
 .Algorithms {

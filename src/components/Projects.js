@@ -27,7 +27,7 @@ const projects = [
     ]
   },
   {
-    name: 'Muscle Monsters UX Project',
+    name: 'Muscle Monsters',
     year: 2021,
     tech: 
     [
@@ -65,6 +65,7 @@ function Projects() {
                 {project.tech.map((technology) => 
                   <span className='ProjectTech'>{technology}</span>
                   )}
+                <div className='ProjectTagline'>Web app to build proposals for new client work</div>
               </li>
             </div>
           ))}
