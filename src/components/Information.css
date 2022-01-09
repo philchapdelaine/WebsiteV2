@@ -13,8 +13,21 @@
     padding-top: 0.5rem;
 }
 
+.InformationTextFilter {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Skills {
+    padding-bottom: 1.5rem;
+}
+
 .FrontEnd {
     color: cornflowerblue;
+}
+
+.FrontEnd:hover {
+    font-weight: bold;
 }
 
 .FullStack {
@@ -29,3 +42,10 @@
     color: coral;
 }
 
+.Experience {
+    padding-bottom: 0.5rem;
+}
+
+.ExperienceYear {
+    margin-right: 1rem;
+}

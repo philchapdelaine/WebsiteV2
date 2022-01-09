@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {useState, useEffect} from "react"
 import './Projects.css'
 
-const projects = [
+const initialProjects = [
   {
     name: 'AE Proposal Builder',
     year: 2021,
@@ -50,7 +50,7 @@ const projects = [
   {
     name: 'Game of Probable Life',
     year: 2020,
-    description: 'Game of Life implementation in Haskell',
+    description: "Conway's Game of Life implementation in Haskell",
     tech: 
     [
       'Algorithms'
@@ -59,7 +59,25 @@ const projects = [
 ]
 
 function Projects() {
-    
+
+  const [projects, setProjects] = useState(initialProjects);
+
+  function handleClick() {
+    let skillUsed = 'Front End Dev';
+    let filterProjects = []
+    if (skillUsed === "All") {
+      filterProjects = projects;
+    } else {
+      filterProjects = projects.filter(project => project.tech.includes(skillUsed));
+      console.log(filterProjects);
+    }
+    setProjects(filterProjects);
+  }
+
+  function handleClick2() {
+    setProjects(initialProjects);
+  }
+
   return (
       <div className='ProjectContainer'>
         <ul className='ProjectList'>
@@ -76,6 +94,7 @@ function Projects() {
             </div>
           ))}
         </ul>
+        <div><button onClick={handleClick}>Test</button> <button onClick={handleClick2}>Test2</button></div>
       </div>
   )
 }
