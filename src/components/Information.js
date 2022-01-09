@@ -1,7 +1,7 @@
 import React from 'react'
 import './Information.css'
 import Typical from 'react-typical'
-import { useSelector, useDispatch } from "react-redux"
+import { useDispatch } from "react-redux"
 // import resume from '../images/philippe_chapdelaine_resume_2021.pdf'
 
 function Information() {
@@ -40,10 +40,30 @@ function Information() {
             <div className='InformationText'><span>Github </span><span>LinkedIn </span><span>Resume</span></div>
             <div className='InformationTextFilter'>You can filter my projects by type:</div>
             <div className='Skills'>
-                <span className='FrontEnd' onMouseOver={() => handleHover('Front End Dev')} onMouseLeave={() => handleUnHover('Front End Dev')}>Front End Dev - </span>
-                <span className='FullStack'>Full Stack Dev - </span>
-                <span className='Algorithms'>Algorithms - </span>
-                <span className='UXResearch'>UX Research</span>
+                <span 
+                    className='FrontEnd' 
+                    onMouseOver={() => handleHover('Front End Dev')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Front End Dev - </span>
+                <span 
+                    className='FullStack'
+                    onMouseOver={() => handleHover('Full Stack Dev')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Full Stack Dev - </span>
+                <span 
+                    className='Algorithms'
+                    onMouseOver={() => handleHover('Algorithms')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Algorithms - </span>
+                <span 
+                    className='UXResearch'
+                    onMouseOver={() => handleHover('UX Research')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    UX Research</span>
             </div>
             <div>
                 <div className='Experience'>Experience</div>

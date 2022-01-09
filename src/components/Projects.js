@@ -9,9 +9,9 @@ function Projects() {
   return (
       <div className='ProjectContainer'>
         <ul className='ProjectList'>
-          {projects.map((project) => (
+          {projects.map((project, i) => (
             <div>
-              <li className='ProjectElement'>
+              <li id={i} className='ProjectElement'>
                 <span className='ProjectYear'>{project.year}</span>
                 <span>{project.name}</span>
                 {project.tech.map((technology) => 

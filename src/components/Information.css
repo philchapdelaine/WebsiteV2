@@ -34,12 +34,24 @@
     color: #AF4C79;
 }
 
+.FullStack:hover {
+    font-weight: bold;
+}
+
 .Algorithms {
     color: olivedrab;
 }
 
+.Algorithms:hover {
+    font-weight: bold;
+}
+
 .UXResearch {
     color: coral;
+}
+
+.UXResearch:hover {
+    font-weight: bold;
 }
 
 .Experience {
