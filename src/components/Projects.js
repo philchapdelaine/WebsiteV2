@@ -5,15 +5,23 @@ import './Projects.css'
 
 function Projects() {
 
+  const [clicked, setClicked] = useState(false);
   const projects = useSelector(state => state)
+
+  function handleClick() {
+    setClicked(!clicked);
+  }
 
   return (
       <div className='ProjectContainer'>
+      {clicked ?
+      <div onClick={() => handleClick()}>Details go here</div>
+      :
         <Fade top cascade>
           <ul className='ProjectList'>
             {projects.map((project, i) => (
               <div>
-                <li id={i} className='ProjectElement'>
+                <li id={i} className='ProjectElement' onClick={() => handleClick()}>
                   <span className='ProjectYear'>{project.year}</span>
                   <span>{project.name}</span>
                   {project.tech.map((technology) => 
@@ -25,6 +33,7 @@ function Projects() {
             ))}
           </ul>
         </Fade>
+      }
       </div>
   )
 }
