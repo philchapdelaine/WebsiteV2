@@ -9,6 +9,15 @@
     font-size: 140%;
 }
 
+.a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.a:hover {
+    font-weight: bold;
+}
+
 .InformationText {
     padding-top: 0.5rem;
 }

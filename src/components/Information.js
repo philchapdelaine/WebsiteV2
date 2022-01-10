@@ -35,7 +35,11 @@ function Information() {
                     wrapper="p"
                 />
             </div>
-            <div className='InformationText'>pchapy@gmail.com</div>
+            <div className='InformationText'>
+                <a className='a' href="mailto:pchapy@gmail.com" target="_blank">
+                pchapy@gmail.com
+                </a>
+            </div>
             <div className='InformationText'>Vancouver, BC</div>
             <div className='InformationText'><span>Github </span><span>LinkedIn </span><span>Resume</span></div>
             <div className='InformationTextFilter'>You can filter my projects by type:</div>

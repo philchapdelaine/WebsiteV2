@@ -38,7 +38,7 @@ const initialProjects = [
     {
       name: 'Park Hangs',
       year: 2020,
-      description: 'Web app that displays information on Vancouver parks',
+      description: 'Web app that displays information on Vancouver parks.',
       tech: 
       [
         'Full Stack Dev'
@@ -47,12 +47,40 @@ const initialProjects = [
     {
       name: 'Game of Probable Life',
       year: 2020,
-      description: "Conway's Game of Life implementation in Haskell",
+      description: "Conway's Game of Life implementation in Haskell.",
       tech: 
       [
         'Algorithms'
       ]
     },
+    {
+      name: 'Rooms and Courses App',
+      year: 2019,
+      description: "Allows users to query UBC campus data, implemented in Typescript.",
+      tech: 
+      [
+        'Full Stack Dev'
+      ]
+    },
+    {
+      name: 'Meetup.com UI Revision Study',
+      year: 2018,
+      description: "Designed in Figma, based on findngs of a 10-person study.",
+      tech: 
+      [
+        'UX Research'
+      ]
+    },
+    {
+      name: 'Soccer Statistics Database',
+      year: 2018,
+      description: "Database implemented using SQL, hosted on UBC Oracle servers.",
+      tech: 
+      [
+        'SQL'
+      ]
+    },
+    
   ]  
 
 function projectsReducer(state = initialProjects, action){
