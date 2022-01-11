@@ -118,7 +118,7 @@ function projectsReducer(state = initialState, action){
     switch (action.type){
        case "FILTER_PROJECTS":
             let newState = state;
-            newState = state.filter(project => project.type === action.projectType);
+            newState = state.filter(project => project.type === action.projectType || project.tech.includes(action.projectType));
            return newState;
         case "ALL_PROJECTS":
             return initialState;

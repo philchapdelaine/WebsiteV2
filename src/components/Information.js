@@ -80,13 +80,13 @@ function Information() {
             <div className='Tech'>
                 <span 
                     className='FullStack'
-                    onMouseOver={() => handleHover('React')} 
+                    onMouseOver={() => handleHover('React.JS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
                     React.JS - </span>
                 <span 
                     className='Algorithms'
-                    onMouseOver={() => handleHover('Node')} 
+                    onMouseOver={() => handleHover('Node.JS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
                     Node.JS - </span>
@@ -104,7 +104,7 @@ function Information() {
                     Redux - </span>
                 <span 
                     className='FrontEnd'
-                    onMouseOver={() => handleHover('HTMLCSS')} 
+                    onMouseOver={() => handleHover('HTML/CSS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
                     HTML/CSS - </span>
@@ -116,7 +116,7 @@ function Information() {
                     Java - </span>
                 <span 
                     className='Database'
-                    onMouseOver={() => handleHover('Java')} 
+                    onMouseOver={() => handleHover('Typescript')} 
                     onMouseLeave={() => handleUnHover()}
                     >
                     Typescript - </span>
