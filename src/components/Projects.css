@@ -57,7 +57,7 @@
 }
 
 .DetailName {
-    font-size: 120%;
+    font-size: 140%;
     padding-bottom: 1.5rem;
 }
 
@@ -65,7 +65,11 @@
     padding-bottom: 1.5rem;
 }
 
+.DetailLinks {
+    padding-bottom: 1.5rem;
+}
+
 .DetailTech {
     float: left;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }

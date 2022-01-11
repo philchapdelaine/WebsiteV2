@@ -21,6 +21,23 @@ function Projects() {
         <div>Thanks for checking out my projects.</div>
       )
     } else {
+      // const hasGit = (selectedProject.github.length !== 0)
+      // const hasExt = (selectedProject.external.length !== 0)
+
+      // let gitLink;
+      // if (hasGit) {
+      //   gitLink = <a className="DetailLinks" href={selectedProject.github} target="_blank" rel="noopener noreferrer">Github</a>
+      // } else {
+      //   gitLink = ""
+      // }
+      
+      // let externalLink;
+      // if (hasExt) {
+      //   externalLink = <a className="DetailLinks" href={selectedProject.external} target="_blank" rel="noopener noreferrer">External</a>
+      // } else {
+      //   externalLink = ""
+      // }
+
       return(
         <div>
           <div className="Back">
@@ -29,13 +46,13 @@ function Projects() {
           <div>{selectedProject.type}</div>
           <div className="DetailName">{selectedProject.name}</div>
           <div className="DetailDescription">{selectedProject.description}</div>
-          <div>
+          <div className="DetailLinks">
             github
             external
           </div>
           <div>
             {selectedProject.tech.map((technology) => (
-              <h6 className="DetailTech">+{technology}  </h6>
+              <div className="DetailTech">+{technology} </div>
             ))}
           </div>
         </div>
