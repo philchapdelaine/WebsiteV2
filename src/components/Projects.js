@@ -15,21 +15,27 @@ function Projects() {
   }
 
   function displayDetails(projectName) {
-    const selectedProject = projects.find(project => project.name === projectName);
-    return(
-      <div onClick={() => handleClick()}>
-        <div>{selectedProject.type}</div>
-        <div>{selectedProject.name}</div>
-        <div>{selectedProject.description}</div>
-        <div>
-          github
-          external
+    const selectedProject = projects.find(project => project.name === projectName) || null;
+    if (selectedProject === null) {
+      return(
+        <div>Thanks for checking out my projects.</div>
+      )
+    } else {
+      return(
+        <div onClick={() => handleClick()}>
+          <div>{selectedProject.type}</div>
+          <div>{selectedProject.name}</div>
+          <div>{selectedProject.description}</div>
+          <div>
+            github
+            external
+          </div>
+          <div>
+            <h6>map tech stack</h6>
+          </div>
         </div>
-        <div>
-          <h6>map tech stack</h6>
-        </div>
-      </div>
-    )
+      )
+    }
   }
 
   return (
