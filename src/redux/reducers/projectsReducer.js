@@ -1,5 +1,14 @@
 const initialProjects = [
     {
+      name: 'Personal Website V2',
+      year: 2022,
+      description: 'Personal website built using React + Redux.',
+      tech: 
+      [
+        'Front End Dev'
+      ]
+    },
+    {
       name: 'AE Proposal Builder',
       year: 2021,
       description: 'Web app to build proposals for new client work.',
@@ -63,7 +72,7 @@ const initialProjects = [
       ]
     },
     {
-      name: 'Meetup.com UI Revision Study',
+      name: 'Meetup.com UI Revision',
       year: 2018,
       description: "Designed in Figma, based on findngs of a 10-person study.",
       tech: 
@@ -77,7 +86,7 @@ const initialProjects = [
       description: "Database implemented using SQL, hosted on UBC Oracle servers.",
       tech: 
       [
-        'SQL'
+        'Database'
       ]
     },
     

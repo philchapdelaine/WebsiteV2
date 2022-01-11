@@ -2,7 +2,7 @@ import React from 'react'
 import './Information.css'
 import Typical from 'react-typical'
 import { useDispatch } from "react-redux"
-// import resume from '../images/philippe_chapdelaine_resume_2021.pdf'
+import resume from '../images/philippe_chapdelaine_resume_2021.pdf'
 
 function Information() {
 
@@ -35,14 +35,16 @@ function Information() {
                     wrapper="p"
                 />
             </div>
+            <div className='InformationText'>Check out my <a className='InformationResume' href={resume} target="_blank" rel="noopener noreferrer">resume</a>.</div>
             <div className='InformationText'>
                 <a className='a' href="mailto:pchapy@gmail.com" target="_blank">
                 pchapy@gmail.com
                 </a>
             </div>
             <div className='InformationText'>Vancouver, BC</div>
-            <div className='InformationText'><span>Github </span><span>LinkedIn </span><span>Resume</span></div>
-            <div className='InformationTextFilter'>You can filter my projects by type:</div>
+            <div className='InformationLink'> <a className='a' rel="noreferrer" href="https://github.com/philchapdelaine/" target="_blank">Github</a></div>
+            <div className='InformationLink'> <a className='a' rel="noreferrer" href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">LinkedIn</a></div>
+            <div className='InformationTextFilter'>You can filter my projects by type or tech:</div>
             <div className='Skills'>
                 <span 
                     className='FrontEnd' 
@@ -57,22 +59,78 @@ function Information() {
                     >
                     Full Stack Dev - </span>
                 <span 
+                    className='UXResearch'
+                    onMouseOver={() => handleHover('UX Research')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    UX Research - </span>
+                <span 
                     className='Algorithms'
                     onMouseOver={() => handleHover('Algorithms')} 
                     onMouseLeave={() => handleUnHover()}
                     >
                     Algorithms - </span>
                 <span 
-                    className='UXResearch'
-                    onMouseOver={() => handleHover('UX Research')} 
+                    className='Database'
+                    onMouseOver={() => handleHover('Database')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    UX Research</span>
+                    Database</span>
+            </div>
+            <div className='Tech'>
+                <span 
+                    className='FullStack'
+                    onMouseOver={() => handleHover('React')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    React.JS - </span>
+                <span 
+                    className='Algorithms'
+                    onMouseOver={() => handleHover('Node')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Node.JS - </span>
+                <span 
+                    className='Database'
+                    onMouseOver={() => handleHover('Javascript')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Javascript - </span>
+                <span 
+                    className='UXResearch'
+                    onMouseOver={() => handleHover('Redux')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Redux - </span>
+                <span 
+                    className='FrontEnd'
+                    onMouseOver={() => handleHover('HTMLCSS')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    HTML/CSS - </span>
+                <span 
+                    className='Algorithms'
+                    onMouseOver={() => handleHover('Java')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Java - </span>
+                <span 
+                    className='Database'
+                    onMouseOver={() => handleHover('Java')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    Typescript - </span>
+                <span 
+                    className='FrontEnd'
+                    onMouseOver={() => handleHover('SQL')} 
+                    onMouseLeave={() => handleUnHover()}
+                    >
+                    SQL</span>
             </div>
             <div>
                 <div className='Experience'>Experience</div>
-                <div><span className='ExperienceYear'>2019-2020</span>Statistics Canada</div>
-                <div><span className='ExperienceYear'>2016-2022</span>University of British Columbia</div>
+                <div><span className='ExperienceYear'>2019-20</span>Statistics Canada</div>
+                <div><span className='ExperienceYear'>2016-22</span>University of British Columbia</div>
             </div>
             <div className='InformationText'>
                 <p> I'm Phil, a software developer, student, and occasional soccer player based in Vancouver.

@@ -17,22 +17,20 @@ function Projects() {
       {clicked ?
       <div onClick={() => handleClick()}>Details go here</div>
       :
-        <Fade top cascade>
-          <ul className='ProjectList'>
-            {projects.map((project, i) => (
-              <div>
-                <li id={i} className='ProjectElement' onClick={() => handleClick()}>
-                  <span className='ProjectYear'>{project.year}</span>
-                  <span>{project.name}</span>
-                  {project.tech.map((technology) => 
-                    <span className='ProjectTech'>{technology}</span>
-                    )}
-                  <div className='ProjectTagline'>{project.description}</div>
-                </li>
-              </div>
-            ))}
-          </ul>
-        </Fade>
+        <ul className='ProjectList'>
+          {projects.map((project, i) => (
+            <div>
+              <li id={i} className='ProjectElement' onClick={() => handleClick()}>
+                <span className='ProjectYear'>{project.year}</span>
+                <span>{project.name}</span>
+                {project.tech.map((technology) => 
+                  <span className='ProjectTech'>{technology}</span>
+                  )}
+                <div className='ProjectTagline'>{project.description}</div>
+              </li>
+            </div>
+          ))}
+        </ul>
       }
       </div>
   )

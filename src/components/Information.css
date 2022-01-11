@@ -27,7 +27,30 @@
     padding-bottom: 0.5rem;
 }
 
+.InformationResume {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.InformationResume:hover {
+    font-style: italic;
+}
+
+.InformationLink {
+    padding-top: 0.5rem;
+}
+
+.InformationLink:hover {
+    font-weight: bold;
+}
+
 .Skills {
+    padding-bottom: 0.5rem;
+}
+
+.Tech {
     padding-bottom: 1.5rem;
 }
 
@@ -63,8 +86,20 @@
     font-weight: bold;
 }
 
+.Database {
+    color: orchid;
+}
+
+.Database:hover {
+    font-weight: bold;
+}
+
 .Experience {
     padding-bottom: 0.5rem;
+}
+
+.Role {
+    padding-left: 7.5rem;
 }
 
 .ExperienceYear {
