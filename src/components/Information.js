@@ -42,8 +42,8 @@ function Information() {
                 </a>
             </div>
             <div className='InformationText'>Vancouver, BC</div>
-            <div className='InformationLink'> <a className='a' rel="noreferrer" href="https://github.com/philchapdelaine/" target="_blank">Github</a></div>
-            <div className='InformationLink'> <a className='a' rel="noreferrer" href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">LinkedIn</a></div>
+            <div className='InformationText'> <a className='a' rel="noreferrer" href="https://github.com/philchapdelaine/" target="_blank">Github</a></div>
+            <div className='InformationText'> <a className='a' rel="noreferrer" href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">LinkedIn</a></div>
             <div className='InformationTextFilter'>You can filter my projects by type or tech:</div>
             <div className='Skills'>
                 <span 

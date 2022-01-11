@@ -22,16 +22,21 @@ function Projects() {
       )
     } else {
       return(
-        <div onClick={() => handleClick()}>
+        <div>
+          <div className="Back">
+            <button className="Button" onClick={() => handleClick()}>back</button>
+          </div>
           <div>{selectedProject.type}</div>
-          <div>{selectedProject.name}</div>
-          <div>{selectedProject.description}</div>
+          <div className="DetailName">{selectedProject.name}</div>
+          <div className="DetailDescription">{selectedProject.description}</div>
           <div>
             github
             external
           </div>
           <div>
-            <h6>map tech stack</h6>
+            {selectedProject.tech.map((technology) => (
+              <h6 className="DetailTech">+{technology}  </h6>
+            ))}
           </div>
         </div>
       )
