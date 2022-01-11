@@ -65,11 +65,24 @@
     padding-bottom: 1.5rem;
 }
 
-.DetailLinks {
+.DetailImage {
+    margin-left: 20%;
+    margin-right: 20%;
     padding-bottom: 1.5rem;
+}
+
+.DetailLinks {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    margin-right: 0.5rem;
+}
+
+.DetailLinks:hover {
+    font-weight: bold;
 }
 
 .DetailTech {
     float: left;
     margin-right: 1rem;
+    margin-top: 1.5rem;
 }

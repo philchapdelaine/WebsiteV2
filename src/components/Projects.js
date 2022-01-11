@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react"
 import { useSelector, useDispatch } from "react-redux"
 import Fade from 'react-reveal/Fade'; 
 import './Projects.css'
+import parkhangs from '../images/parkhangs.png'
 
 function Projects() {
 
@@ -21,8 +22,9 @@ function Projects() {
         <div>Thanks for checking out my projects.</div>
       )
     } else {
-      const hasGit = (selectedProject.github !== undefined)
-      const hasExt = (selectedProject.external !== undefined)
+      const hasGit = (selectedProject.github !== undefined);
+      const hasExt = (selectedProject.external !== undefined);
+      const hasImg = (selectedProject.image !== undefined);
 
       let gitLink;
       if (hasGit) {
@@ -38,6 +40,13 @@ function Projects() {
         externalLink = ""
       }
 
+      let image;
+      if (hasImg) {
+        image = <img className="DetailImage" src={require(selectedProject.image).default} alt="project" />
+      } else {
+        image = ""
+      }
+
       return(
         <div>
           <div className="Back">
@@ -45,10 +54,14 @@ function Projects() {
           </div>
           <div>{selectedProject.type}</div>
           <div className="DetailName">{selectedProject.name}</div>
-          <div className="DetailDescription">{selectedProject.description}</div>
-          <div className="DetailLinks">
-            {gitLink}
-            {externalLink}
+          <div className="DetailImage">
+          {image}
+          Images will be uploaded soon.
+          </div>
+          <div className="DetailDescription">{selectedProject.details}</div>
+          <div>
+            <span className="DetailLinks">{gitLink}</span>
+            <span className="DetailLinks">{externalLink}</span>
           </div>
           <div>
             {selectedProject.tech.map((technology, i) => (
