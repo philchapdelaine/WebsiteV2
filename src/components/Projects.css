@@ -29,7 +29,6 @@
 .ProjectTech {
     font-size: 70%;
     margin-left: 1rem;
-    color: coral
 }
 
 .ProjectTagline {
@@ -85,4 +84,34 @@
     float: left;
     margin-right: 1rem;
     margin-top: 1.5rem;
+}
+
+.ProjectFrontEnd {
+    color: cornflowerblue;
+    font-size: 70%;
+    margin-left: 1rem;
+}
+
+.ProjectFullStack {
+    color: #AF4C79;
+    font-size: 70%;
+    margin-left: 1rem;
+}
+
+.ProjectAlgorithms {
+    color: olivedrab;
+    font-size: 70%;
+    margin-left: 1rem;
+}
+
+.ProjectUXResearch {
+    color: coral;
+    font-size: 70%;
+    margin-left: 1rem;
+}
+
+.ProjectDatabase {
+    color: orchid;
+    font-size: 70%;
+    margin-left: 1rem;
 }

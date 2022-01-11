@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react"
 import { useSelector, useDispatch } from "react-redux"
 import Fade from 'react-reveal/Fade'; 
 import './Projects.css'
-import parkhangs from '../images/parkhangs.png'
 
 function Projects() {
 
@@ -73,6 +72,24 @@ function Projects() {
     }
   }
 
+  function getClassName (projectType) {
+    console.log(projectType);
+    switch(projectType) {
+      case 'Front End Dev':
+        return 'ProjectFrontEnd';
+      case 'Full Stack Dev':
+        return 'ProjectFullStack';
+      case 'Algorithms':
+        return 'ProjectAlgorithms';
+      case 'UX Research':
+        return 'ProjectUXResearch';
+      case 'Database':
+        return 'ProjectDatabase';
+      default:
+        return 'ProjectFrontEnd';
+    }
+  }
+
   return (
       <div className='ProjectContainer'>
       {clicked ?
@@ -84,7 +101,7 @@ function Projects() {
               <li className='ProjectElement' onClick={() => handleClick(project.name)}>
                 <span className='ProjectYear'>{project.year}</span>
                 <span>{project.name}</span>
-                <span className='ProjectTech'>{project.type}</span>
+                <span className={`${getClassName(project.type)}`}>{project.type}</span>
                 <div className='ProjectTagline'>{project.description}</div>
               </li>
             </div>
