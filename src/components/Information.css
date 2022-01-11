@@ -27,6 +27,11 @@
     padding-bottom: 0.5rem;
 }
 
+.Filter {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .InformationResume {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
