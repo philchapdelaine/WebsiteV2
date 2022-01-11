@@ -11,7 +11,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false)
-    }, 1500)
+    }, 1000)
   }, [])
 
   return (
@@ -21,7 +21,7 @@ function App() {
     loading...
     </div>
     :
-    <div class="SplitScreen">
+    <div className="SplitScreen">
         <div className="LeftPanel">
           <Information />
         </div>

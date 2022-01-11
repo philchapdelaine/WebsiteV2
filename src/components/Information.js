@@ -8,8 +8,8 @@ function Information() {
 
     const dispatch = useDispatch();
 
-    function handleHover(skillUsed) {
-        dispatch({ type: "FILTER_PROJECTS", skillUsed: skillUsed });
+    function handleHover(projectType) {
+        dispatch({ type: "FILTER_PROJECTS", projectType: projectType });
     }
 
     function handleUnHover() {
