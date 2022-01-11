@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from "react"
-import { useSelector, useDispatch } from "react-redux"
-import Fade from 'react-reveal/Fade'; 
+import React, { useState } from "react"
+import { useSelector } from "react-redux"
 import './Projects.css'
 
 function Projects() {
@@ -73,7 +72,6 @@ function Projects() {
   }
 
   function getClassName (projectType) {
-    console.log(projectType);
     switch(projectType) {
       case 'Front End Dev':
         return 'ProjectFrontEnd';
