@@ -25,6 +25,7 @@
 .InformationTextFilter {
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .Filter {
@@ -65,6 +66,7 @@
 
 .FrontEnd:hover {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .FullStack {
@@ -73,6 +75,7 @@
 
 .FullStack:hover {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .Algorithms {
@@ -81,6 +84,7 @@
 
 .Algorithms:hover {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .UXResearch {
@@ -89,6 +93,7 @@
 
 .UXResearch:hover {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .Database {
@@ -97,6 +102,7 @@
 
 .Database:hover {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .Experience {

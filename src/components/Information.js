@@ -44,32 +44,36 @@ function Information() {
             <div className='InformationText'>Vancouver, BC</div>
             <div className='InformationText'> <a className='a' rel="noreferrer" href="https://github.com/philchapdelaine/" target="_blank">Github</a></div>
             <div className='InformationText'> <a className='a' rel="noreferrer" href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">LinkedIn</a></div>
-            <div className='InformationTextFilter'>You can <span className='Filter'>filter</span> my projects by type or tech:</div>
+            <div className='InformationTextFilter'>You can filter my projects by type or tech:</div>
             <div className='Skills'>
                 <span 
                     className='FrontEnd' 
                     onMouseOver={() => handleHover('Front End Dev')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Front End Dev - </span>
+                    Front End Dev</span>
+                <span> - </span>
                 <span 
                     className='FullStack'
                     onMouseOver={() => handleHover('Full Stack Dev')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Full Stack Dev - </span>
+                    Full Stack Dev</span>
+                <span> - </span>
                 <span 
                     className='UXResearch'
                     onMouseOver={() => handleHover('UX Research')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    UX Research - </span>
+                    UX Research</span>
+                <span> - </span>
                 <span 
                     className='Algorithms'
                     onMouseOver={() => handleHover('Algorithms')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Algorithms - </span>
+                    Algorithms</span>
+                <span> - </span>
                 <span 
                     className='Database'
                     onMouseOver={() => handleHover('Database')} 
@@ -83,43 +87,50 @@ function Information() {
                     onMouseOver={() => handleHover('React.JS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    React.JS - </span>
+                    React.JS</span>
+                <span> - </span>
                 <span 
                     className='Algorithms'
                     onMouseOver={() => handleHover('Node.JS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Node.JS - </span>
+                    Node.JS</span>
+                <span> - </span>
                 <span 
                     className='Database'
                     onMouseOver={() => handleHover('Javascript')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Javascript - </span>
+                    Javascript</span>
+                <span> - </span>
                 <span 
                     className='UXResearch'
                     onMouseOver={() => handleHover('Redux')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Redux - </span>
+                    Redux</span>
+                <span> - </span>
                 <span 
                     className='FrontEnd'
                     onMouseOver={() => handleHover('HTML/CSS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    HTML/CSS - </span>
+                    HTML/CSS</span>
+                <span> - </span>
                 <span 
                     className='Algorithms'
                     onMouseOver={() => handleHover('Java')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Java - </span>
+                    Java</span>
+                <span> - </span>
                 <span 
                     className='Database'
                     onMouseOver={() => handleHover('Typescript')} 
                     onMouseLeave={() => handleUnHover()}
                     >
-                    Typescript - </span>
+                    Typescript</span>
+                <span> - </span>
                 <span 
                     className='FrontEnd'
                     onMouseOver={() => handleHover('SQL')} 
