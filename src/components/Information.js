@@ -10,6 +10,7 @@ function Information() {
 
     function handleHover(projectType) {
         dispatch({ type: "FILTER_PROJECTS", projectType: projectType });
+        window.scrollTo(0,document.body.scrollHeight);
     }
 
     function handleUnHover() {
