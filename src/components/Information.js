@@ -18,7 +18,7 @@ function Information() {
     }
     
     return (
-        <div className='InformationContainer'>
+        <div className='InformationContainer' style={{cursor:'default'}}>
             <div className='InformationName'>Philippe Chapdelaine</div>
             <div className='InformationText'>
                 <Typical
