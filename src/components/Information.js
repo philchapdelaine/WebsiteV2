@@ -49,6 +49,7 @@ function Information() {
             <div className='Skills'>
                 <span 
                     className='FrontEnd' 
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Front End Dev')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -56,6 +57,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='FullStack'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Full Stack Dev')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -63,6 +65,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='UXResearch'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('UX Research')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -70,6 +73,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='Algorithms'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Algorithms')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -77,6 +81,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='Database'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Database')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -85,6 +90,7 @@ function Information() {
             <div className='Tech'>
                 <span 
                     className='FullStack'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('React.JS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -92,6 +98,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='Algorithms'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Node.JS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -99,6 +106,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='Database'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Javascript')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -106,6 +114,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='UXResearch'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Redux')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -113,6 +122,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='FrontEnd'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('HTML/CSS')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -120,6 +130,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='Algorithms'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Java')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -127,6 +138,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='Database'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('Typescript')} 
                     onMouseLeave={() => handleUnHover()}
                     >
@@ -134,6 +146,7 @@ function Information() {
                 <span> - </span>
                 <span 
                     className='FrontEnd'
+                    style={{cursor:'pointer'}}
                     onMouseOver={() => handleHover('SQL')} 
                     onMouseLeave={() => handleUnHover()}
                     >
