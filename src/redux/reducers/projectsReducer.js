@@ -7,7 +7,7 @@ const initialState = [
       details: 
       `Designed my personal website using Figma, and built it using React + Redux.
       It filters my personal projects by type or tech stack.`,
-      github: "https://github.com/philchapdelaine/PCWebsite",
+      github: "https://github.com/philchapdelaine/WebsiteV2",
       external: 'https://philchapdelaine.com',
       tech: [
         'React.JS',
@@ -64,7 +64,7 @@ const initialState = [
       Used GraphQL in order to query, sort, and display markdown files 
       representing work experience and projects`,
       github: "https://github.com/philchapdelaine/PCWebsite",
-      external: "https://www.philchapdelaine.com",
+      external: "https://heuristic-roentgen-37b385.netlify.app/",
       tech: [
         'Gatsby.JS',
         'Javascript',
