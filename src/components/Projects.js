@@ -1,6 +1,11 @@
 import React, { useState } from "react"
 import { useSelector } from "react-redux"
 import './Projects.css'
+import parkhangs from '../images/parkhangs.png'
+import uxProject444 from '../images/444_project.png'
+import uxProjectMeetup from '../images/meetup.png'
+import website from '../images/website.png'
+import websiteV2 from '../images/websitev2.png'
 
 function Projects() {
 
@@ -11,6 +16,25 @@ function Projects() {
   function handleClick(projectName) {
     setSelected(projectName);
     setClicked(!clicked);
+  }
+
+  function getImage (projectName) {
+    switch(projectName) {
+      case 'Park Hangs':
+        return <div> <img className="DetailImage" src={parkhangs} alt="Park Hangs" /></div>;
+      case 'Personal Website':
+        return <div> <img className="DetailImage" src={website} alt="Personal Website" /></div>;
+      case 'Personal Website V2':
+        return <div> <img className="DetailImage" src={websiteV2} alt="Personal Website V2" /></div>;
+      case 'Muscle Monsters':
+        return <div> <img className="DetailImage" src={uxProject444} alt="Muscle Monsters" /></div>;
+      case 'Meetup.com UI Revision':
+        return <div> <img className="DetailImage" src={uxProjectMeetup} alt="Meetup" /></div>;
+      case 'PrologPather':
+        return <div> <a className="DetailLinks" href={`https://www.youtube.com/watch?v=vxXIq-59t1k&feature=youtu.be`} target="_blank" rel="noopener noreferrer">Check out the demo video!</a> </div>;
+      default:
+        return <div>No images for this project :(</div>;
+    }
   }
 
   function displayDetails(projectName) {
@@ -40,13 +64,13 @@ function Projects() {
 
       let image;
       if (hasImg) {
-        image = <img className="DetailImage" src={require(selectedProject.image).default} alt="project" />
+        image = getImage(selectedProject.name);
       } else {
-        image = ""
+        image = "Image coming soon."
       }
 
       return(
-        <div>
+        <div className="DetailContainer" style={{cursor:'default'}}>
           <div className="Back">
             <button className="Button" onClick={() => handleClick()}>back</button>
           </div>
@@ -54,14 +78,13 @@ function Projects() {
           <div className="DetailName">{selectedProject.name}</div>
           <div className="DetailImage">
           {image}
-          Images will be uploaded soon.
           </div>
           <div className="DetailDescription">{selectedProject.details}</div>
           <div>
             <span className="DetailLinks">{gitLink}</span>
             <span className="DetailLinks">{externalLink}</span>
           </div>
-          <div>
+          <div className="DetailTechContainer">
             {selectedProject.tech.map((technology, i) => (
               <div key={selectedProject.name + technology} className="DetailTech">+{technology} </div>
             ))}

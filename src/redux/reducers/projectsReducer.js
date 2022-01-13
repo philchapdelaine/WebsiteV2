@@ -9,6 +9,7 @@ const initialState = [
       It filters my personal projects by type or tech stack.`,
       github: "https://github.com/philchapdelaine/WebsiteV2",
       external: 'https://philchapdelaine.com',
+      image: true,
       tech: [
         'React.JS',
         'Redux',
@@ -49,6 +50,7 @@ const initialState = [
       It works by comparing time taken values of individual sections of routes,
       and also features options such as including a scenic route, or stopping for a cafe/restaurant.`,
       github: 'https://github.com/philchapdelaine/Prolog-Pather',
+      image: true,
       tech: [
         'Prolog'
       ]
@@ -65,6 +67,7 @@ const initialState = [
       representing work experience and projects`,
       github: "https://github.com/philchapdelaine/PCWebsite",
       external: "https://heuristic-roentgen-37b385.netlify.app/",
+      image: true,
       tech: [
         'Gatsby.JS',
         'Javascript',
@@ -83,6 +86,7 @@ const initialState = [
       Conducted a user study, comparing a design that emulated social 
       media apps vs. a design which got users working out in a single click`,
       external: "https://www.figma.com/file/Edt3eaT27YKO4OEVuC2DTM/444-Design-A?node-id=0%3A1",
+      image: true,
       tech: [
         'Figma',
         'UX Research Methods'
@@ -99,12 +103,15 @@ const initialState = [
       comments, ratings, and events.`,
       github: "https://github.com/cmaija/ParkHangs",
       external: "https://parkhangs-webapp.herokuapp.com",
+      image: true,
       tech: [
         'React.JS',
         'Node.JS',
         'HTML/CSS',
         'Redux',
         'Javascript',
+        'Google OAuth',
+        'Material-UI'
       ]
     },
     {
@@ -137,10 +144,11 @@ const initialState = [
       year: 2018,
       description: "Designed in Figma, based on findngs of a 10-person study.",
       type: 'UX Research',
-      details: `-	Employed relevant HCI design patterns to perform a 10-person study on proposed 
+      details: `Employed relevant HCI design patterns to perform a 10-person study on proposed 
       revisions to the user interface of meetup.com, using Figma for a medium-fidelity prototype. 
       Used gathered data to revise proposed changes`,
       external: " https://docs.google.com/presentation/d/1kIn1W2Ouae-PNVIzQSCz0EmAkcV6aYAupjInZUlNvj8/edit#slide=id.g4801ce3f0f_3_80",
+      image: true,
       tech: [
         'Figma',
         'UX Research Methods'

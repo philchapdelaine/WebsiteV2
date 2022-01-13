@@ -55,6 +55,10 @@
     font-weight: bold;
 }
 
+.DetailContainer {
+    padding-bottom: 2rem;
+}
+
 .DetailName {
     font-size: 140%;
     padding-bottom: 1.5rem;
@@ -65,14 +69,14 @@
 }
 
 .DetailImage {
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-bottom: 1.5rem;
+    max-width:100%;
+    max-height:100%;
+    padding-bottom: 0.75rem;
 }
 
 .DetailLinks {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
+    color: cornflowerblue; /* blue colors for links too */
+    text-decoration: underline; /* no underline */
     margin-right: 0.5rem;
 }
 
@@ -80,10 +84,14 @@
     font-weight: bold;
 }
 
+.DetailTechContainer {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 .DetailTech {
     float: left;
     margin-right: 1rem;
-    margin-top: 1.5rem;
 }
 
 .ProjectFrontEnd {
