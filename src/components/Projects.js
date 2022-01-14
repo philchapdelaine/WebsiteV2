@@ -33,6 +33,8 @@ function Projects() {
         return <div> <img className="DetailImage" src={uxProjectMeetup} alt="Meetup" /></div>;
       case 'Game of Probable Life':
         return <div> <img className="DetailImage" src={gameOfLife} alt="Game of Life" /></div>;
+      case 'AE Proposal Builder':
+          return <div>No images allowed to be shown.<br/><br/></div>;
       case 'PrologPather':
         return <div> <a className="DetailLinks" href={`https://www.youtube.com/watch?v=vxXIq-59t1k&feature=youtu.be`} target="_blank" rel="noopener noreferrer">Check out the demo video!</a> </div>;
       default:
