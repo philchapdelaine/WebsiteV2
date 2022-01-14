@@ -19,9 +19,12 @@
     color: #80C0C0;
 }
 
+.ProjectName {
+    margin-left: 1rem;
+}
+
 .ProjectYear {
     font-size: 70%;
-    margin-right: 1rem;
     /* color: #44B5D2; */
     color: #80C0C0;
 }

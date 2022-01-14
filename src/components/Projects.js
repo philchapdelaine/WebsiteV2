@@ -121,7 +121,7 @@ function Projects() {
             <div key={project.name}>
               <li className='ProjectElement' style={{cursor:'pointer'}} onClick={() => handleClick(project.name)}>
                 <span className='ProjectYear'>{project.year}</span>
-                <span>{project.name}</span>
+                <span className="ProjectName">{project.name}</span>
                 <span className={`${getClassName(project.type)}`}>{project.type}</span>
                 <div className='ProjectTagline'>{project.description}</div>
               </li>

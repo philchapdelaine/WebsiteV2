@@ -42,9 +42,9 @@ function Information() {
                 pchapy@gmail.com
                 </a>
             </div>
-            <div className='InformationText'>Vancouver, BC</div>
             <div className='InformationText'> <a className='a' rel="noreferrer" href="https://github.com/philchapdelaine/" target="_blank">Github</a></div>
             <div className='InformationText'> <a className='a' rel="noreferrer" href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">LinkedIn</a></div>
+            <div className='InformationText'>I'm based in Vancouver, BC</div>
             <div className='InformationTextFilter'>You can filter my projects by type or tech:</div>
             <div className='Skills'>
                 <span 
@@ -158,8 +158,8 @@ function Information() {
                 <div><span className='ExperienceYear'>2016-22</span>University of British Columbia</div>
             </div>
             <div className='InformationText'>
-                <p> I'm Phil, a software developer, student, and occasional soccer player based in Vancouver.
-                    I'm seeking exciting opportunities in 2022. Here are some of my projects.
+                <p> I'm Phil, a software developer, student, and occasional soccer player currently living in Vancouver.
+                    I'm seeking exciting opportunities for mid 2022. Here are some of my projects.
                 </p>
             </div>
         </div>
