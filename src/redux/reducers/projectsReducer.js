@@ -122,7 +122,8 @@ const initialState = [
       type: 'Algorithms',
       details: `Used Haskell to implement a simulation of Conway's Game of Life, 
       a zero-player game that is played on a two-dimensional square grid 
-      of cells that are either alive or dead based on the following set of rules:`,
+      of cells that are either alive or dead based on a preset set of rules.
+      Our twist was that the rules were enforced with a real-time customizable probability.`,
       github: "https://github.com/philchapdelaine/game-of-life",
       image : true,
       tech: [
