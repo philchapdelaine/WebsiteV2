@@ -6,6 +6,7 @@ import uxProject444 from '../images/444_project.png'
 import uxProjectMeetup from '../images/meetup.png'
 import website from '../images/website.png'
 import websiteV2 from '../images/websitev2.png'
+import gameOfLife from '../images/gameoflife.jpg'
 
 function Projects() {
 
@@ -30,6 +31,8 @@ function Projects() {
         return <div> <img className="DetailImage" src={uxProject444} alt="Muscle Monsters" /></div>;
       case 'Meetup.com UI Revision':
         return <div> <img className="DetailImage" src={uxProjectMeetup} alt="Meetup" /></div>;
+      case 'Game of Probable Life':
+        return <div> <img className="DetailImage" src={gameOfLife} alt="Game of Life" /></div>;
       case 'PrologPather':
         return <div> <a className="DetailLinks" href={`https://www.youtube.com/watch?v=vxXIq-59t1k&feature=youtu.be`} target="_blank" rel="noopener noreferrer">Check out the demo video!</a> </div>;
       default:
@@ -74,7 +77,7 @@ function Projects() {
           <div className="Back">
             <button className="Button" onClick={() => handleClick()}>back</button>
           </div>
-          <div>{selectedProject.type}</div>
+          <div className={`${getDetailClassName(selectedProject.type)}`}>{selectedProject.type}</div>
           <div className="DetailName">{selectedProject.name}</div>
           <div className="DetailImage">
           {image}
@@ -108,6 +111,23 @@ function Projects() {
         return 'ProjectDatabase';
       default:
         return 'ProjectFrontEnd';
+    }
+  }
+
+  function getDetailClassName (projectType) {
+    switch(projectType) {
+      case 'Front End Dev':
+        return 'DetailProjectFrontEnd';
+      case 'Full Stack Dev':
+        return 'DetailProjectFullStack';
+      case 'Algorithms':
+        return 'DetailProjectAlgorithms';
+      case 'UX Research':
+        return 'DetailProjectUXResearch';
+      case 'Database':
+        return 'DetailProjectDatabase';
+      default:
+        return 'DetailProjectFrontEnd';
     }
   }
 

@@ -123,6 +123,7 @@ const initialState = [
       a zero-player game that is played on a two-dimensional square grid 
       of cells that are either alive or dead based on the following set of rules:`,
       github: "https://github.com/philchapdelaine/game-of-life",
+      image : true,
       tech: [
         'Haskell'
       ]

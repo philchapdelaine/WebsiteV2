@@ -65,6 +65,7 @@
 .DetailName {
     font-size: 140%;
     padding-bottom: 1.5rem;
+    padding-top: 0.25rem;
 }
 
 .DetailDescription {
@@ -125,4 +126,24 @@
     color: orchid;
     font-size: 70%;
     margin-left: 1rem;
+}
+
+.DetailProjectFrontEnd {
+    color: cornflowerblue;
+}
+
+.DetailProjectFullStack {
+    color: #AF4C79;
+}
+
+.DetailProjectAlgorithms {
+    color: olivedrab;
+}
+
+.DetailProjectUXResearch {
+    color: coral;
+}
+
+.DetailProjectDatabase {
+    color: orchid;
 }
