@@ -15,6 +15,11 @@ function App() {
   }, [])
 
   return (
+    loading ? 
+    <div className="Loading">
+    Hello.
+    </div>
+    :
     <div className="SplitScreen">
         <div className="LeftPanel">
           <Information />

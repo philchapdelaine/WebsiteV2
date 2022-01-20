@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.Loading {
+  font-family: 'LiberationMonoRegular';
+  color: #234572;
+  font-weight: bold;
+  font-size: 140%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
