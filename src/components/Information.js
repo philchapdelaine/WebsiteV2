@@ -154,14 +154,17 @@ function Information() {
             </div>
             <div>
                 <div className='Experience'>Experience</div>
+                <div><span className='ExperienceYear'>2022-Pres</span>UBC Visual Cognition Lab</div>
                 <div><span className='ExperienceYear'>2019-20</span>Statistics Canada</div>
                 <div><span className='ExperienceYear'>2016-22</span>University of British Columbia</div>
             </div>
+            {/*
             <div className='InformationText'>
                 <p> I'm Phil, a software developer, student, and occasional soccer player currently living in Vancouver.
                     I'm seeking exciting opportunities for mid 2022. Here are some of my projects.
                 </p>
             </div>
+        */}
         </div>
     )
 }
