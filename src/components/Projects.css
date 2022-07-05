@@ -147,3 +147,35 @@
 .DetailProjectDatabase {
     color: orchid;
 }
+
+@media screen and (max-width: 768px) {
+    .ProjectName {
+        display: block;
+        margin-left: 0rem;
+    }
+    
+    .ProjectTagline {
+        margin-left: 0rem;
+        margin-top: 0.1rem;
+    }
+
+    .ProjectFrontEnd {
+        margin-left: 0rem;
+    }
+
+    .ProjectFullStack {
+        margin-left: 0rem;
+    }
+
+    .ProjectAlgorithms {
+        margin-left: 0rem;
+    }
+
+    .ProjectUXResearch {
+        margin-left: 0rem;
+    }
+
+    .ProjectDatabase {
+        margin-left: 0rem;
+    }
+  }
