@@ -7,6 +7,7 @@ import uxProjectMeetup from '../images/meetup.png'
 import website from '../images/website.png'
 import websiteV2 from '../images/websitev2.png'
 import gameOfLife from '../images/gameoflife.jpg'
+import photogrpahy from '../images/photography.png'
 
 function Projects() {
 
@@ -33,6 +34,8 @@ function Projects() {
         return <div> <img className="DetailImage" src={uxProjectMeetup} alt="Meetup" /></div>;
       case 'Game of Probable Life':
         return <div> <img className="DetailImage" src={gameOfLife} alt="Game of Life" /></div>;
+      case 'Photography Website':
+        return <div> <img className="DetailImage" src={photogrpahy} alt="Photography" /></div>;
       case 'AE Proposal Builder':
           return <div>No images allowed to be shown.<br/><br/></div>;
       case 'PrologPather':

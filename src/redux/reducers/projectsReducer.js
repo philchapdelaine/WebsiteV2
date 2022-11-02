@@ -1,5 +1,23 @@
 const initialState = [
     {
+      name: 'Photography Website',
+      year: 2022,
+      description: 'Website that showcases some of my pictures, built using Gatsby + Redux.',
+      type: 'Front End Dev',
+      details: 
+      `I built a website to showcase some of the pictures I've taken while travelling, using Gatsby + Redux.
+      I used a friend's music as rhe background track.`,
+      github: "https://github.com/philchapdelaine/Photographs",
+      external: 'https://philpictures.netlify.app/',
+      image: true,
+      tech: [
+        'Gatsby.JS',
+        'Redux',
+        'Javascript',
+        'HTML/CSS'
+      ]
+    },
+    {
       name: 'Personal Website V2',
       year: 2022,
       description: 'Personal website built using React + Redux.',

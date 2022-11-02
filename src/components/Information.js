@@ -154,7 +154,7 @@ function Information() {
             </div>
             <div>
                 <div className='Experience'>Experience</div>
-                <div><span className='ExperienceYear'>2022-Now</span>UBC Visual Cognition Lab</div>
+                <div><span className='ExperienceYear'>2022-Now</span>UBC CNS Lab</div>
                 <div><span className='ExperienceYear'>2019-20</span>   Statistics Canada</div>
                 <div><span className='ExperienceYear'>2016-22</span>   University of British Columbia</div>
             </div>
