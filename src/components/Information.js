@@ -2,7 +2,7 @@ import React from 'react'
 import './Information.css'
 import Typical from 'react-typical'
 import { useDispatch } from "react-redux"
-import resume from '../images/philippe_chapdelaine_resume_2021.pdf'
+import resume from '../images/philippe_chapdelaine_resume.pdf'
 
 function Information() {
 
