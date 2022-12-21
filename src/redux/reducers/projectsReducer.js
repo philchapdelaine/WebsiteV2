@@ -5,8 +5,8 @@ const initialState = [
       description: 'Website that showcases some of my pictures, built using Gatsby + Redux.',
       type: 'Front End Dev',
       details: 
-      `I built a website to showcase some of the pictures I've taken while travelling, using Gatsby + Redux.
-      I used a friend's music as rhe background track.`,
+      `Built a website to showcase some of the pictures I've taken while travelling, using Gatsby + Redux.
+      Displays image location data. Uses a friend's music as the background track.`,
       github: "https://github.com/philchapdelaine/Photographs",
       external: 'https://philpictures.netlify.app/',
       image: true,
