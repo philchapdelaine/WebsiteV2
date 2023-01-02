@@ -117,3 +117,14 @@
 .ExperienceYear {
     margin-right: 1rem;
 }
+
+@media screen and (min-width: 1800px) {
+    .InformationContainer {
+        font-size: 140%;
+    }
+    
+    .InformationName {
+        font-size: 160%;
+    }
+  }
+  
