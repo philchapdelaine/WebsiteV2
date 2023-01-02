@@ -183,18 +183,18 @@
   @media screen and (min-width: 1800px) {
     .ProjectContainer {
         font-size: 140%;
+        margin: 4rem;
     }
     
     .ProjectYear {
-        font-size: 60%;
+        font-size: 66%;
     }
     
     .ProjectTech {
-        font-size: 60%;
+        font-size: 66%;
     }
     
     .ProjectTagline {
-        font-size: 60%;
-        margin-left: 3rem;
+        font-size: 66%;
     }
   }

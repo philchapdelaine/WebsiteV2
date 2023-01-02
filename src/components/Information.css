@@ -121,6 +121,7 @@
 @media screen and (min-width: 1800px) {
     .InformationContainer {
         font-size: 140%;
+        margin: 4rem;
     }
     
     .InformationName {
