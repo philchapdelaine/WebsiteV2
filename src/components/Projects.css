@@ -179,3 +179,21 @@
         margin-left: 0rem;
     }
   }
+
+  @media screen and (min-width: 1800px) {
+    .ProjectContainer {
+        font-size: 140%;
+    }
+    
+    .ProjectYear {
+        font-size: 90%;
+    }
+    
+    .ProjectTech {
+        font-size: 90%;
+    }
+    
+    .ProjectTagline {
+        font-size: 90%;
+    }
+  }
