@@ -186,14 +186,14 @@
     }
     
     .ProjectYear {
-        font-size: 90%;
+        font-size: 82% !important;
     }
     
     .ProjectTech {
-        font-size: 90%;
+        font-size: 82%;
     }
     
     .ProjectTagline {
-        font-size: 90%;
+        font-size: 82%;
     }
   }
