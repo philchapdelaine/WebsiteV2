@@ -37,7 +37,7 @@ function Projects() {
       case 'Photography Website':
         return <div> <img className="DetailImage" src={photogrpahy} alt="Photography" /></div>;
       case 'AE Proposal Builder':
-          return <div>No images allowed to be shown.<br/><br/></div>;
+          return <div>No images allowed to be shown publicly.<br/><br/></div>;
       case 'PrologPather':
         return <div> <a className="DetailLinks" href={`https://www.youtube.com/watch?v=vxXIq-59t1k&feature=youtu.be`} target="_blank" rel="noopener noreferrer">Check out the demo video!</a> </div>;
       default:

@@ -46,7 +46,7 @@ const initialState = [
       proposals for new client work.
       Implemented the proposal builder tool using React.JS and CSS, while 
       using Axios to make HTTP requests.
-      Unfortunately, I am not allowed to show any design or expose any code.`,
+      Unfortunately, I am not allowed to show any design or expose any code publicly.`,
       image: false,
       tech: [
         'React.JS',
