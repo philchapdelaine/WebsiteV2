@@ -104,7 +104,7 @@ const initialState = [
       order to motivate people to get in shape, using Figma.
       Conducted a user study, comparing a design that emulated social 
       media apps vs. a design which got users working out in a single click`,
-      external: "https://www.figma.com/file/Edt3eaT27YKO4OEVuC2DTM/444-Design-A?node-id=0%3A1",
+      external: "https://www.figma.com/proto/OE26LMmcdAU3h3DbGBag58/444-Design-B?node-id=1-3&starting-point-node-id=1%3A3",
       image: true,
       tech: [
         'Figma',
