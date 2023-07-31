@@ -38,9 +38,7 @@ function Information() {
             </div>
             <div className='InformationText'>Check out my <a className='InformationResume' href={resume} target="_blank" rel="noopener noreferrer">resume</a>.</div>
             <div className='InformationText'>
-                <a className='a' href="mailto:pchapy@gmail.com" target="_blank">
-                pchapy@gmail.com
-                </a>
+                <a className='a' href="mailto:pchapy@gmail.com" target="_blank">Email</a>
             </div>
             <div className='InformationText'> <a className='a' rel="noreferrer" href="https://github.com/philchapdelaine/" target="_blank">Github</a></div>
             <div className='InformationText'> <a className='a' rel="noreferrer" href="https://www.linkedin.com/in/philippe-chapdelaine-b63561185/" target="_blank">LinkedIn</a></div>
@@ -154,9 +152,9 @@ function Information() {
             </div>
             <div>
                 <div className='Experience'>Experience</div>
-                <div><span className='ExperienceYear'>2022-Now</span>UBC CNS Lab</div>
+                <div><span className='ExperienceYear'>2023-Now</span>Panevo</div>
+                <div><span className='ExperienceYear'>2022-23</span>   UBC CNS Lab</div>
                 <div><span className='ExperienceYear'>2019-20</span>   Statistics Canada</div>
-                <div><span className='ExperienceYear'>2016-22</span>   University of British Columbia</div>
             </div>
             {/*
             <div className='InformationText'>
